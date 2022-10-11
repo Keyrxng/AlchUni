@@ -40,6 +40,11 @@ contract BuyMeACoffee {
         return memos;
     }
 
+    function changeOwner(address _newOwner) public {
+        require(msg.sender == owner, "Not Owner");
+        owner = _newOwner;
+    }
+
     /**
      * @dev buy a coffee for owner (sends an ETH tip and leaves a memo)
      * @param _name name of the coffee purchaser
