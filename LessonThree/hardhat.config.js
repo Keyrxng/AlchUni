@@ -1,7 +1,7 @@
-require('@nomicfoundation/hardhat-toolbox')
 require('dotenv').config()
 require('@nomiclabs/hardhat-waffle')
 require('@nomiclabs/hardhat-etherscan')
+require('@nomiclabs/hardhat-ethers')
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
