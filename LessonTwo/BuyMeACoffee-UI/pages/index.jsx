@@ -1,6 +1,5 @@
 import styles from "../styles/Home.module.css";
 import { ConnectButton } from "@rainbow-me/rainbowkit";
-import { Panel } from "./components/panels";
 import { Section } from "./layout/section";
 import abi from "./utils/BuyMeACoffee.json";
 import { useEffect, useState } from "react";
