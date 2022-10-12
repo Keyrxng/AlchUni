@@ -42,7 +42,7 @@ contract BuyMeACoffee {
 
     function changeOwner(address _newOwner) public {
         require(msg.sender == owner, "Not Owner");
-        owner = _newOwner;
+        owner = payable(_newOwner);
     }
 
     /**

@@ -32,9 +32,13 @@
 }
 .input {
 	display: flex;
-	margin: 5px;
+	margin: 1px;
 	padding: 15px;
 	border: 2px solid rgb(55, 159, 39);
+	width: 100%;
+	margin-top: 10px;
+	border-radius: 15px;
+	justify-content: center;
 }
 
 .logo_container {
@@ -70,7 +74,7 @@
 	min-width: 50%;
 	border: 2px solid rgb(55, 159, 39);
 	padding: 2rem 1.5rem;
-	margin-right: 120px;
+	margin-right: 60px;
 	border-radius: 6px;
 }
 
